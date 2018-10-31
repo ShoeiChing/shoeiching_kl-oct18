@@ -15,5 +15,5 @@ print (currentTime.minute)
 print (currentTime.second)
 
 
-
-
+print (datetime.datetime.strftime(currentTime,'%H:%M'))
+print (datetime.datetime.strftime(currentTime,'%I:%M %p'))
