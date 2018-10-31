@@ -16,5 +16,6 @@ print (currentDate.day)
 #print (currentDate.strftime('%d %b,%Y'))
 
 print (currentDate.strftime('%A %d %B,%Y'))
+
 print (currentDate.strftime
 ('Please attend our event %A, %B %d in the year %Y'))
