@@ -6,7 +6,7 @@ Created on Wed Oct 31 11:18:33 2018
 """
 
 answer = input("Would you like express shipping? (yes/no):").lower()
-shippingSelected = False
+#shippingSelected = False
 
 if answer == "yes" :
     print("That will be an extra $10")
