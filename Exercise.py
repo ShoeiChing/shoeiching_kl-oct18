@@ -6,13 +6,13 @@ Created on Mon Nov  5 10:31:39 2018
 """
 
 guests = []
-name=  " "
+name=  "0"
 
-while name != "DONE":
-    name = input("Please enter the guest name(Please enter DONE if done):")
+while name != " ":
+    name = input("Please enter the guest name(Please enter space if done):")
 
-if name="DONE":
-    guests.append(name)    
+    if name !=" ":
+        guests.append(name)    
 
 guests.sort()
 
