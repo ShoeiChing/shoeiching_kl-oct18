@@ -13,7 +13,21 @@ dataFromFile = csv.reader(myCSVFile)
 
 print(dataFromFile)
 
+'''standard -->['Test1', '22']
 for row in dataFromFile :
-    print(row)
+    print(value)
+'''
+
+'''print in next row
+for row in dataFromFile :
+    #print row
+    for value in row :
+        print(value)
+'''
+
+#print for format --> Test1 22 /Test1, 22
+for row in dataFromFile :
+#    print (', '.join(row))
+    print (' '.join(row))
     
 myCSVFile.close()   
