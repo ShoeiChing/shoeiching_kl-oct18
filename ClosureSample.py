@@ -10,7 +10,7 @@ def make_inc(x):
         return x+y
     return inc
 
-if __name__=="__name__":
+if __name__=="__main__":
     inc5 = make_inc(5)
     inc10 = make_inc(10)
     
