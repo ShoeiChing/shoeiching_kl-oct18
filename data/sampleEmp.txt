@@ -1,0 +1,2 @@
+1001	supervisor	John	Lim	JL	1970-4-3	1999-5-6	34500	0198287405	Alice
+1002	executive		Mark	Wong	MW	1982-6-7	1998-1-1	56000	0179971236	Jonathon		
