@@ -1,0 +1,7 @@
+2018-11-23 09:45:39,354 - flask.app - WARNING - SQL Query:insert into customer values(123,'John','Lee','JL','34550','0178889022','890')
+2018-11-23 09:52:28,832 - flask.app - WARNING - SQL Query:insert into customer values(27,'Jess','Ng','JN','34761','12345678','1000')
+2018-11-23 09:59:13,128 - flask.app - WARNING - SQL Query:insert into customer values(27,'Jess','Ng','JN','34761','12345678','1000')
+2018-11-23 09:59:13,161 - flask.app - ERROR - An error occurred(1062, "Duplicate entry '27' for key 'PRIMARY'")
+2018-11-23 09:59:16,415 - flask.app - WARNING - SQL Query:insert into customer values(27,'Jess','Ng','JN','34761','12345678','1000')
+2018-11-23 09:59:16,418 - flask.app - ERROR - An error occurred(1062, "Duplicate entry '27' for key 'PRIMARY'")
+2018-11-23 09:59:52,150 - flask.app - WARNING - SQL Query:insert into customer values(14,'Mary','Ong','MO','4590','98706652','2000')
